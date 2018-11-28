@@ -1,0 +1,78 @@
+h1{
+    font-size: 24pt;
+}
+body{
+    background-color: #c75871;
+    font-family: Times;
+    font-size: 12pt;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dcc1c7;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #c75871;
+}
+
+.content{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    background: #e4cbcf;
+}
+.content li{
+    margin: 5px 0;
+}
+.row{
+    display: flex;
+}
+
+#quemSouEu .text{
+    width: auto;
+    padding-right: 20px;
+}
+#quemSouEu .text p{
+    margin: 0 0 1em 0.5in;
+
+}
+
+#quemSouEu .img{
+    width: 30%;
+    text-align: right;
+}
+
+#experiencia p{
+    margin: 0 1em 1em 1.5em;
+
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+     }
+
+    .img{
+        
+    }
